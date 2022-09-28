@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (min-width: 360px) {
+  .burger{
+    display: block;
+  }
+}
+@media (min-width: 1024px){
+  .burger{
+    display: none
+  }
+  .navbar{
+    display: block;
+  }
+}
